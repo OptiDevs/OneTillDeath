@@ -1,0 +1,19 @@
+main: ml.voltaic.bukkit.onetilldeath.Main
+name: OneTillDeath
+version: 0.1
+prefix: OneTillDeath
+description: Allows players to only run a command once untill they die
+author: DiamondDeveloper
+website: http://wwww.Voltiac.ml/
+database: false
+
+commands:
+ OneTillDeath:
+    description: Reloads the config file.
+    aliases: [otd, OneCommandTillDeath]
+
+permissions:
+  OneTillDeath.bypass.*:
+    description: Allows player to bypass a command
+  OneTillDeath.admin:
+    description: Allows player to use /OneTillDeath
